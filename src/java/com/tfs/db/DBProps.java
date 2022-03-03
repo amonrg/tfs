@@ -5,6 +5,7 @@ public class DBProps {
     private String url;
     private String user;
     private String password;
+    private String pgp_key;
     
     public DBProps() {
     }
@@ -39,5 +40,13 @@ public class DBProps {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getPgp_key() {
+        return pgp_key;
+    }
+
+    public void setPgp_key(String pgp_key) {
+        this.pgp_key = pgp_key;
     }
 }

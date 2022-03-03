@@ -35,6 +35,7 @@ public class Utils {
             dbprops.setUrl((String) props.get("url"));
             dbprops.setUser((String) props.get("user"));
             dbprops.setPassword((String) props.get("password"));
+            dbprops.setPgp_key((String)props.get("pgp_key"));
             
             return dbprops;
         } catch (FileNotFoundException ex) {
