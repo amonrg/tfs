@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Register</title>
+    </head>
+    <body>
+        <form method="POST" action="register" class="session-form">
+            <div class="session-form">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="session-form">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" /> (Optional: Only needed to send notifications)
+            </div>
+            <div class="session-form">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" required />
+            </div>
+            <input type="submit" value="Register" />
+        </form>
+    </body>
+</html>
